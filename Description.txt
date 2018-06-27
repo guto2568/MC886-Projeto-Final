@@ -1,0 +1,12 @@
+Na pasta 'Data':
+	Crypto: Dados sobre outras moedas digitais além do Bitcoin (Litecoin, XLR, POTcoin)
+	googleTrends: Relevância do termo "Bitcoin" em pesquisas no google por semana
+	newCNY-USD: Dados sobre o valor do dolár e do Yuan
+	Main, got, got3, Exporter: Ferramentas retiradas de https://github.com/Jefferson-Henrique/GetOldTweets-python para extração de tweets
+	Bitcoin_Tweets.py: Encontra 100 tweets com o tema "bitcoin" por dia, de 30/06/2013 até 24/06/2018
+	coinbaseUSD: Dados sobre bitcoin por minuto de 2014 até 2018 e salva em tweets_data
+	train/test_raw: Dados sobre bitcoin, Yuan, Dolar e outras criptos, divididos em conjunto de treino e de teste
+	sentiment analysis: Faz a analise de sentimentos com Vader nos tweets em tweets_dara. Salva resultado por dia em sentiment_analysis, e por tweet em sentiment_analysis_raw
+Na pasta 'Regression':
+	train/test:Arquivos com todos os parâmetros extraidos, divididos em arquivo de treino e de teste
+	regressor: Aplica regressão através de SVR usando train e test, e imprime os resultados em result_test_set e result_train_set 
